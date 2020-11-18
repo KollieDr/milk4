@@ -1,0 +1,212 @@
+:root {
+  --text-main: rgba(212, 20, 67, 1);
+  --text-secondary: rgba(255, 255, 255, 1);
+  --text-side: rgba(255, 165, 186, 1);
+  --text-title: rgba(0, 0, 0, 1);
+  --text-article: rgba(144, 126, 130, 1);
+  --back-bt-main: rgba(255, 255, 255, 1);
+  --back-bt-dun: rgba(212, 20, 67, 1);
+  --back-bt-extra: rgba(236, 235, 235, 1);
+  --font-dun: 'Titan One', sans-serif;
+  --back-pages: #e5e5e5;
+}
+* {
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'DM Sans', sans-serif;
+  background-color: var(--back-pages);
+  color: var(--text-article);
+  margin-left: 10px;
+}
+
+/* =========== COMPONENTS ============ */
+.but-main:hover,
+.but-main:focus {
+  background-color: var(--back-bt-extra);
+}
+.but-dun:hover,
+.but-dun:focus {
+  background-color: ;
+}
+
+.but-main {
+  background-color: var(--back-bt-main);
+  color: var(--text-main);
+}
+.but-dun {
+  background-color: var(--back-bt-dun);
+  color: var(--text-secondary);
+}
+
+.but-mini {
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.28;
+}
+.but-max {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31;
+}
+.c_nt {
+  font-family: 'Titan One';
+  font-weight: 400;
+  font-size: 58px;
+  color: var(--text-main);
+}
+
+.desc {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.86;
+  letter-spacing: 0.04em;
+}
+
+.quote {
+  color: var(--text-title);
+}
+.link-color {
+  color: var(--text-main);
+}
+.extra {
+  color: var(--back-bt-extra);
+}
+.side {
+  color: var(--text-side);
+}
+.article {
+  color: var(--text-article);
+}
+/* =========== END COMPONENTS ========= */
+
+/* ============  HEADER ============ */
+
+.nav-link {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.31;
+  color: var(--text-secondary);
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: var(--text-main);
+}
+
+/*  ============  hero  ============ */
+.hero-title {
+  font-family: 'Titan One';
+  font-weight: 400;
+  font-size: 38px;
+  line-height: 1.15;
+  letter-spacing: 0.04em;
+  color: var(--text-secondary);
+}
+.hero-ice.c_nt {
+  line-height: 0.9;
+  letter-spacing: 0.04em;
+}
+
+.numeral {
+  font-family: 'Titan One';
+  font-weight: 400;
+  font-size: 46px;
+  line-height: 1.15;
+  letter-spacing: 0.04em;
+  color: var(--text-main);
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.31;
+  color: var(--text-secondary);
+}
+
+/* ============ Advantages ============ */
+.title-key {
+  font-family: 'Titan One';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.13;
+  letter-spacing: 0.04em;
+  color: var(--text-side);
+}
+/* для красных заголовков */
+.subtitle {
+  line-height: 1.13;
+  letter-spacing: 0.06em;
+}
+
+.goods-title {
+  font-family: 'Titan One';
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.13;
+  letter-spacing: 0.04em;
+  color: var(--text-secondary);
+}
+
+.goods-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.76;
+  letter-spacing: 0.04em;
+  color: var(--text-secondary);
+}
+.text-caption {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.76;
+  letter-spacing: 0.04em;
+  color: var(--text-title);
+}
+.text-section {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.94;
+  letter-spacing: 0.04em;
+  color: var(--text-article);
+}
+
+.unit {
+  line-height: 1.13;
+  letter-spacing: 0.04em;
+}
+
+.unit-text {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.76;
+  letter-spacing: 0.02em;
+  color: var(--text-title);
+}
+.author {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.86;
+  color: var(--text-title);
+}
+
+/*  ============ location  ============ */
+/* все  стили обработаны компонентами */
+
+/*  ============  Footer ============ */
+.contact-down {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+}
+.copyright {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.86;
+  letter-spacing: 0.02em;
+}
